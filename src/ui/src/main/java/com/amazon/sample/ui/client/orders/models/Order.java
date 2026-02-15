@@ -112,7 +112,6 @@ public class Order implements AdditionalDataHolder, Parsable {
     writer.writeObjectValue("shippingAddress", this.getShippingAddress());
     writer.writeAdditionalData(this.getAdditionalData());
   }
-
   /**
    * Sets the AdditionalData property value. Stores additional data not described in the OpenAPI description found when deserializing. Can be used for serialization as well.
    * @param value Value to set for the AdditionalData property.
@@ -122,7 +121,6 @@ public class Order implements AdditionalDataHolder, Parsable {
   ) {
     this.additionalData = value;
   }
-
   /**
    * Sets the items property value. The items property
    * @param value Value to set for the items property.
@@ -132,7 +130,6 @@ public class Order implements AdditionalDataHolder, Parsable {
   ) {
     this.items = value;
   }
-
   /**
    * Sets the shippingAddress property value. The shippingAddress property
    * @param value Value to set for the shippingAddress property.
